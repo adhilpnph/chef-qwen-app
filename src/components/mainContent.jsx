@@ -6,7 +6,7 @@ import {getRecipeFromQwen} from "../ai"
 import MarkDown from "./markDown";
 export default function MainContent(){
     
-    const [ingredients,setIngredients]= React.useState(["Chicken","Dill","Rice","Oil"])
+    const [ingredients,setIngredients]= React.useState([])
     const [recipeShown,setRecipeShown]=React.useState("")
     const recipeSection=React.useRef(null)
 

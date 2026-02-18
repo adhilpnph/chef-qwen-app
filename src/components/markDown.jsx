@@ -9,7 +9,7 @@ Hi! I’m **your personal recipe recommendation assistant**, built for one thing
 
 #### How it works
 
-- 🥕 You give me a list of ingredients — specific or vague, whatever you’ve got.
+- 🥕 You give me a list of ingredients **(Atleast 4)** — specific or vague, whatever you’ve got.
 - 🍽️ I suggest a real, authentic recipe that makes sense culturally and culinarily.
 - 🔥 Optional **top-tier chef tips** are included to elevate the dish from good to unforgettable.
 
