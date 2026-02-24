@@ -19,9 +19,13 @@ export default function Ingredients(props){
                         <h3 className="recipe-container-title">Ready for a recipe?</h3>
                         <p>Generate a recipe from your list of ingredients</p>
                     </div>
-                    <form className="get-recipe-form" action={props.getRecipe}>
+                    <form className="get-recipe-form" onSubmit={(e) => {
+                        e.preventDefault()
+                        const formData = new FormData(e.target)
+                        props.getRecipe(formData)
+                    }}>
                         <input placeholder="How to make majbous" type="text" name="command" id="command" />
-                        <button >Get a recipe</button>
+                        <button>Get a recipe</button>
                     </form>
                     
                     

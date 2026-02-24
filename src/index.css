@@ -137,7 +137,7 @@ ul {
 
 }
 .get-recipe-form>button{
-  background-color: rgb(210, 170, 94);;
+  background-color: rgb(210, 170, 94);
   border: none;
   color: white;
   font-size: clamp(0.7rem, 1.5vw, 0.875rem);
@@ -173,4 +173,11 @@ ul {
 .star {
   background: transparent;
   border: none;
+}
+.state-message{
+  display: flex;
+  justify-content: center;
+  color: rgb(210, 170, 94);
+  margin-top: 50px;
+
 }
